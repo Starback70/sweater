@@ -4,6 +4,6 @@
 <@c.page>
 Login page
 <b>Add new user</b>
-${message!" "}
+${message!}
 <@l.login "/registration"/>
 </@c.page>
