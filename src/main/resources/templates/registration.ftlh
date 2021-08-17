@@ -3,7 +3,7 @@
 
 <@c.page>
 Login page
-<b>Add new user</b>
+<div class="mb-1">Add new user</div>
 ${message!}
-<@l.login "/registration"/>
+<@l.login "/registration" true/>
 </@c.page>

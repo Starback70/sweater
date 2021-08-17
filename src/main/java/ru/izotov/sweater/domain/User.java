@@ -22,10 +22,13 @@ public class User implements UserDetails {
     @Enumerated(EnumType.STRING)
     private Set<Role> roles;
 
+    public boolean isAdmin() {
+        return roles.contains(Role.ADMIN);
+    }
+
     public Long getId() {
         return id;
     }
-
 
     public void setId(Long id) {
         this.id = id;
